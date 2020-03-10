@@ -1,0 +1,79 @@
+.mainTitle {
+    color: rgb(140, 71, 219);
+    font-size: 60px;
+    background-color: rgba(109, 108, 108, 0.726);
+    border: 3px solid teal;
+    border-radius: 3px;
+    display: flex;
+    font-family: fantasy;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.main {
+    display: flex;
+}
+
+.accentBar {
+    display: flex;
+    height: 30px;
+    margin-left: 180px;
+    background-color: rgba(109, 108, 108, 0.308);
+    margin-top: 50px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 0;
+    padding-top: 0;
+    padding-left: 140px;
+}
+
+.mainContent {
+    flex-direction: row;
+    display: flex;
+    font-size: 18px;
+    padding-left: 180px;
+    flex-wrap: wrap;
+    height: 700px;
+    width: 500px;
+    justify-content: space-between;
+}
+
+.sideContent {
+    justify-self: end;
+    width: 200px;
+    padding-left: 90px;
+    padding-top: 30px;
+    margin-top: 0;
+}
+
+.endPage {
+    display: flex;
+    margin-bottom: 0;
+    color: rgb(140, 71, 219);
+    margin-left: 0;
+    margin-right: 0;
+    height: 100px;
+    background-color: rgba(109, 108, 108, 0.726);
+    border: 3px solid teal;
+    border-radius: 3px;
+    justify-content: space-between;
+}
+
+.photo {
+    margin-top: 0;
+    padding-left: 90px;
+    padding-top: 150px;
+    display: block;
+    width: 200px;
+}
